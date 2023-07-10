@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Belanosima', sans-serif;
+    background-color: rgba(12,12,12,0.9);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: auto;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(12,12,12,0.9);
+    top: 0;
+
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.header-left {
+    float: left;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 12px 24px;
+    background-color: rgba(12,12,12,0.9);
+    color: aquamarine;
+    border-radius: 25px;
+    
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: aquamarine;
+    color: rgb(12,12,12);
+}
+
+.top-wrapper {
+    padding: 280px 0 140px 20px;
+    background-color: aquamarine;
+    color: rgb(12,12,12);
+    text-align: left;
+}
+
+.top-wrapper h1 {
+    font-size: 48px;
+}
+
+.top-wrapper h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.btn-wrapper {
+    margin: 30px 0;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-right: 10px;
+
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    box-shadow: 0 8px 8px rgba(12,12,12, 0.4);
+}
+
+.signin {
+    background-color: rgb(12,12,12);
+    color: white;
+}
+
+.signin:hover {
+    background-color: rgba(12,12,12,0.8);
+    border: 2px solid white;
+}
+
+.signup {
+    border: 2px solid;
+    border-color: black;
+    color: black;
+}
+
+.signup:hover {
+    background-color: rgba(12,12,12,0.8);
+    color: white;
+    border-color: white;
+}
+
+.mostplayed-wrapper {
+    color: white;
+}
+
+.heading {
+    padding: 40px 0 50px 0;
+    text-align: center;
+}
+
+.heading h1 {
+    font-weight: normal;
+    font-size: 38px;
+}
+
+.songs {
+    display: flex;
+}
+
+.song-card {
+    width: 20%;
+    margin-right: 10px;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: rgba(12,12,12, 0.9);
+    box-shadow: 0 8px 16px rgba(12,12,12, 0.4);
+
+    flex: auto;
+}
+
+.song-card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.text {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.play-wrapper {
+    text-align: right;
+    margin: 15px 0;
+    display: block;
+}
+
+.btn-play {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.btn-play:hover {
+    background-color: aquamarine;
+    color: black;
+    box-shadow: 0 8px 8px rgba(12,12,12, 0.4);
+}
+
+.playlist-wrapper {
+    color: white;
+    padding: 100px 0;
+}
+
+.heading h2 {
+    font-weight: normal;
+    text-align: left;
+    font-size: 38px;
+}
+
+.playlists{
+    display: flex;
+}
+
+.playlist-card {
+    width: 25%;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: rgba(12,12,12, 0.9);
+    box-shadow: 0 8px 16px rgba(12,12,12, 0.4);
+    flex: auto;
+    margin-right: 15px;
+}
+
+.playlist-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.btn-createPlaylist {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid white;
+    box-shadow: 0 8px 16px rgba(12,12,12, 0.4);
+
+    transition: 0.5s;
+}
+
+.btn-createPlaylist:hover {
+    background-color: rgba(12,12,12,0.8);
+    border-color: aquamarine;
+    color: aquamarine;
+}
+
+.songs-wrapper {
+    color: white;
+    margin-bottom: 80px;
+}
+
+.discoveries {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.discoveries-card {
+    width: 10%;
+    margin-right: 20px;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: rgba(12,12,12, 0.9);
+    box-shadow: 0 8px 16px rgba(12,12,12, 0.4);
+
+    flex: auto;
+}
+
+.discoveries-card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: aquamarine;
+    padding: 10px 0 15px 0;
+    text-align: center;
+}
+
+footer .logo {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
